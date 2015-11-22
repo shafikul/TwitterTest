@@ -9,6 +9,10 @@ Rails.application.routes.draw do
   get '/profile' => 'pages#Profile'
 
   get '/explore' => 'pages#Explore'
+  
+  get '/signup' => 'users#new'
+  
+  resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
