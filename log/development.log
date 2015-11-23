@@ -6810,3 +6810,1406 @@ ActionView::Template::Error (First argument in form cannot contain nil or be emp
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.9ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 17:30:27 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_nav_guest.html.erb (1.1ms)
+  Rendered layouts/_nav.html.erb (5.3ms)
+Completed 200 OK in 841ms (Views: 830.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-e18188a5e211fee6e14c2d4a9901659df7bc4dc73ff5e7fe4416ad91fdda22df.css?body=1" for 10.240.0.45 at 2015-11-23 17:30:29 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6a879e736afda96826634ab914561896fe5a3b17fc9e7363451b07b7a507fa57.css?body=1" for 10.240.0.45 at 2015-11-23 17:30:29 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.45 at 2015-11-23 17:30:29 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.44 at 2015-11-23 17:30:29 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 10.240.0.44 at 2015-11-23 17:30:29 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:29 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 10.240.0.44 at 2015-11-23 17:30:29 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:29 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:29 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1b9e969f748876a2e407f49f343a18137df438eb40186bc454a57f0b17c27b1d.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:30 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:30 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:30 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:30 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:31 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.44 at 2015-11-23 17:30:31 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:31 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:31 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:32 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:33 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:33 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:33 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:34 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:34 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:34 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 17:30:35 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/login" for 10.240.0.45 at 2015-11-23 17:30:42 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (44.3ms)
+  Rendered layouts/_nav_guest.html.erb (1.0ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 621ms (Views: 619.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 10.240.0.45 at 2015-11-23 17:30:52 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kqxlz3hHGoI9Q32uwODyu5tOrhivZ2goXpkIUYXQa28Rkz0tU79edBniVlc8Ev1T/fFJjfz4DFBPDZ1dGZAZlg==", "session"=>{"email"=>"fool@gm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "fool@gm.com"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://twittertest-shafikul1.c9users.io:8080/users/6
+Completed 302 Found in 223ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/users/6" for 10.240.0.45 at 2015-11-23 17:30:52 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (2.0ms)
+  Rendered layouts/_nav.html.erb (4.8ms)
+Completed 200 OK in 393ms (Views: 390.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 17:30:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered shared/_error_messages.html.erb (4.0ms)
+  Rendered users/edit.html.erb within layouts/application (77.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (2.0ms)
+  Rendered layouts/_nav.html.erb (4.0ms)
+Completed 200 OK in 520ms (Views: 517.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 17:32:11 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered users/edit.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.1ms)
+Completed 200 OK in 167ms (Views: 166.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.self-e18188a5e211fee6e14c2d4a9901659df7bc4dc73ff5e7fe4416ad91fdda22df.css?body=1" for 10.240.0.45 at 2015-11-23 17:32:12 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.45 at 2015-11-23 17:32:12 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.44 at 2015-11-23 17:32:12 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:12 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6a879e736afda96826634ab914561896fe5a3b17fc9e7363451b07b7a507fa57.css?body=1" for 10.240.0.44 at 2015-11-23 17:32:12 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:12 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 10.240.0.44 at 2015-11-23 17:32:12 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:12 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:12 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:13 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:13 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:14 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:14 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:14 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:14 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:14 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:14 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:14 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:14 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:15 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:15 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:15 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:15 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1b9e969f748876a2e407f49f343a18137df438eb40186bc454a57f0b17c27b1d.js?body=1" for 10.240.0.45 at 2015-11-23 17:32:15 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.44 at 2015-11-23 17:32:15 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started PATCH "/users/6" for 10.240.0.45 at 2015-11-23 18:34:02 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (undefined method `befor_action' for UsersController:Class):
+  app/controllers/users_controller.rb:2:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (63.8ms)
+
+
+Started PATCH "/users/6" for 10.240.0.45 at 2015-11-23 18:34:55 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ho8JnuP2Xincr067Hk/+zqW2yIUhltgl3HVCfQA0AFOdsFF8yA4a3/gOZULivfEmwwkvEHIJvF3N4ddxnHRyqg==", "user"=>{"fullname"=>"shafi", "nickname"=>"sha", "email"=>"fool@gm.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Save Changes", "id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 17ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.1ms)
+  Rendered layouts/_nav.html.erb (6.7ms)
+Completed 200 OK in 195ms (Views: 194.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.self-e18188a5e211fee6e14c2d4a9901659df7bc4dc73ff5e7fe4416ad91fdda22df.css?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6a879e736afda96826634ab914561896fe5a3b17fc9e7363451b07b7a507fa57.css?body=1" for 10.240.0.44 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 10.240.0.44 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 10.240.0.44 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1b9e969f748876a2e407f49f343a18137df438eb40186bc454a57f0b17c27b1d.js?body=1" for 10.240.0.45 at 2015-11-23 18:34:57 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/6/edit" for 10.240.0.44 at 2015-11-23 18:35:13 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:35:13 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (2.5ms)
+Completed 200 OK in 157ms (Views: 156.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 18:35:18 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:35:18 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 146ms (Views: 145.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 18:35:24 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:35:24 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.1ms)
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 155ms (Views: 154.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.44 at 2015-11-23 18:36:52 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:36:52 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 224ms (Views: 223.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.44 at 2015-11-23 18:37:32 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:37:32 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 144ms (Views: 143.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.0ms)
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 160ms (Views: 159.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.self-e18188a5e211fee6e14c2d4a9901659df7bc4dc73ff5e7fe4416ad91fdda22df.css?body=1" for 10.240.0.45 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.45 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.44 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.45 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6a879e736afda96826634ab914561896fe5a3b17fc9e7363451b07b7a507fa57.css?body=1" for 10.240.0.44 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:39 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.44 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1b9e969f748876a2e407f49f343a18137df438eb40186bc454a57f0b17c27b1d.js?body=1" for 10.240.0.45 at 2015-11-23 18:37:40 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/6/edit" for 10.240.0.44 at 2015-11-23 18:37:42 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:37:43 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.4ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 178ms (Views: 177.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:38:45 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (13.9ms)
+Completed 200 OK in 247ms (Views: 245.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/custom.self-e18188a5e211fee6e14c2d4a9901659df7bc4dc73ff5e7fe4416ad91fdda22df.css?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.45 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6a879e736afda96826634ab914561896fe5a3b17fc9e7363451b07b7a507fa57.css?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 10.240.0.45 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 10.240.0.45 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:46 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:47 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:47 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:47 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:47 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1b9e969f748876a2e407f49f343a18137df438eb40186bc454a57f0b17c27b1d.js?body=1" for 10.240.0.44 at 2015-11-23 18:38:47 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/6/edit" for 10.240.0.44 at 2015-11-23 18:38:53 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 153ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:38:53 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 170ms (Views: 168.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 10.240.0.44 at 2015-11-23 18:38:56 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"beiAXkBfqNO0D1TJTRi59ke/trzp5jSY3plt0uTWnjru19i8a6fsJZCufzCx6rYeIQBRKbp5UODPDfjeeJbsww=="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:38:56 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.5ms)
+Completed 200 OK in 159ms (Views: 158.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 10.240.0.44 at 2015-11-23 18:39:01 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 166ms (Views: 165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.240.0.44 at 2015-11-23 18:39:10 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.7ms)
+Completed 200 OK in 184ms (Views: 183.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 10.240.0.45 at 2015-11-23 18:39:24 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xC+S4MR+i9N/yUVH0iPnSU3qIRKqNfJaKqKTp4chlGhHEMoC74bPJVtobr4u0eihK1XGh/mqliI7NgarG2HmkQ==", "session"=>{"email"=>"ss@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "ss@gmail.com"]]
+  Rendered sessions/new.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.1ms)
+Completed 200 OK in 221ms (Views: 218.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for 10.240.0.44 at 2015-11-23 18:39:37 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qcfd+cB9qKetyIarwbREthOtoK6bFlCNv0W44J4skjbC+IUb64XsUYlprVI9RktedRJHO8iJNPWu0S3sAmzgzw==", "session"=>{"email"=>"fool@gm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "fool@gm.com"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://twittertest-shafikul1.c9users.io:8080/users/6
+Completed 302 Found in 81ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/6" for 10.240.0.44 at 2015-11-23 18:39:38 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.3ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 164ms (Views: 162.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 18:39:42 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:39:42 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.1ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 149ms (Views: 148.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:42:39 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (27.9ms)
+Completed 200 OK in 462ms (Views: 449.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 18:42:49 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:42:49 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (2.3ms)
+  Rendered layouts/_nav.html.erb (5.3ms)
+Completed 200 OK in 243ms (Views: 242.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 18:42:53 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:42:53 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (3.7ms)
+Completed 200 OK in 207ms (Views: 204.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 18:42:55 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:42:56 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (3.7ms)
+Completed 200 OK in 225ms (Views: 223.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 18:43:00 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:43:00 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.3ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 170ms (Views: 168.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/profile" for 10.240.0.45 at 2015-11-23 18:43:09 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Profile as HTML
+  Rendered pages/Profile.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 230ms (Views: 229.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 10.240.0.44 at 2015-11-23 18:43:12 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 270ms (Views: 269.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.44 at 2015-11-23 18:43:15 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:43:15 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 167ms (Views: 166.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 10.240.0.44 at 2015-11-23 18:45:16 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tz39/7mS6BTjqYlpKG8A5A20zUx4LZTP/S70kaUHIIQ0AqUdkmqs4scIopDUnQ8Mawsq2Suy8LfsumGdOUdSfQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:45:16 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.9ms)
+  Rendered layouts/_nav.html.erb (4.6ms)
+Completed 200 OK in 164ms (Views: 163.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.240.0.44 at 2015-11-23 18:45:20 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (36.2ms)
+  Rendered layouts/_nav_guest.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 276ms (Views: 275.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 10.240.0.45 at 2015-11-23 18:45:28 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xK0KDuGj8QzVV236h/lAS15GlTDdyYxBs1yreBK8fxVHklLsylu1+vH2RgN7C0+jOPlypY5W6DmiyD50jvwN7A==", "session"=>{"email"=>"fool@gm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "fool@gm.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://twittertest-shafikul1.c9users.io:8080/users/6
+Completed 302 Found in 76ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/users/6" for 10.240.0.44 at 2015-11-23 18:45:28 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.4ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 199ms (Views: 197.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.44 at 2015-11-23 18:45:32 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:45:33 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.4ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 207ms (Views: 206.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.44 at 2015-11-23 18:49:30 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 18ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:49:30 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 214ms (Views: 212.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 18:51:42 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:51:42 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.0ms)
+  Rendered layouts/_nav.html.erb (2.5ms)
+Completed 200 OK in 163ms (Views: 162.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.45 at 2015-11-23 18:51:45 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 18:51:45 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 181ms (Views: 180.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/6/edit" for 10.240.0.44 at 2015-11-23 18:52:51 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered shared/_error_messages.html.erb (5.0ms)
+  Rendered users/edit.html.erb within layouts/application (11.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 231ms (Views: 204.3ms | ActiveRecord: 1.5ms)
+
+
+Started PATCH "/users/6" for 10.240.0.44 at 2015-11-23 18:52:56 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WNmHLrpHode5KzbudEx3IQYkRJqvh8lTQhst05P8Ex7b5t/Mkb/lIZ2KHReIvnjJYJujD/wYrStTj7jfD7xh5w==", "user"=>{"fullname"=>"shafi", "nickname"=>"sha", "email"=>"fool@gm.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Save Changes", "id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE (LOWER("users"."email") = LOWER('fool@gm.com') AND "users"."id" != 6) LIMIT 1
+  [1m[36mSQL (2.9ms)[0m  [1mUPDATE "users" SET "nickname" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["nickname", "sha"], ["updated_at", "2015-11-23 18:52:56.854617"], ["id", 6]]
+  [1m[35m (10.2ms)[0m  commit transaction
+Redirected to http://twittertest-shafikul1.c9users.io:8080/users/6
+Completed 302 Found in 62ms (ActiveRecord: 13.9ms)
+
+
+Started GET "/users/6" for 10.240.0.44 at 2015-11-23 18:52:57 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 211ms (Views: 207.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 10.240.0.45 at 2015-11-23 18:57:22 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.7ms)
+  Rendered layouts/_nav.html.erb (3.8ms)
+Completed 200 OK in 218ms (Views: 216.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.self-e18188a5e211fee6e14c2d4a9901659df7bc4dc73ff5e7fe4416ad91fdda22df.css?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6a879e736afda96826634ab914561896fe5a3b17fc9e7363451b07b7a507fa57.css?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.44 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.240.0.44 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 10.240.0.44 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 10.240.0.44 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 10.240.0.44 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 10.240.0.44 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:23 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:24 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:24 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:24 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.240.0.44 at 2015-11-23 18:57:24 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1b9e969f748876a2e407f49f343a18137df438eb40186bc454a57f0b17c27b1d.js?body=1" for 10.240.0.45 at 2015-11-23 18:57:24 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 10.240.0.45 at 2015-11-23 18:57:27 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Home as HTML
+  Rendered pages/Home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.3ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 194ms (Views: 192.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 10.240.0.45 at 2015-11-23 18:57:31 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"sP1oVXBHMLs7QS/Lo19iBUOckfVJXm2CjCl1NNOpD8ozwjC3W790TR/gBDJfrW3tJSN2YBrBCfqdveA4T+l9Mw=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://twittertest-shafikul1.c9users.io:8080/
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 18:57:32 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 206ms (Views: 204.8ms | ActiveRecord: 0.0ms)
