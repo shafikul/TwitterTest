@@ -5611,3 +5611,1202 @@ Processing by UsersController#new as HTML
   Rendered layouts/_nav_guest.html.erb (0.3ms)
   Rendered layouts/_nav.html.erb (1.5ms)
 Completed 200 OK in 232ms (Views: 231.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 203.202.242.130 at 2015-11-23 07:40:08 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.6ms)
+Completed 200 OK in 201ms (Views: 199.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 203.202.242.130 at 2015-11-23 07:40:12 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 198ms (Views: 197.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 203.202.242.130 at 2015-11-23 07:59:03 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OLg7a2EvCjMI5W9GPBjJpAxQTzSibd5uFyZYFz4WyJVnNTSeLtgdDLPJYwgaGAW5Q4hrNJFSqCTIIGz3nblQLw==", "session"=>{"email"=>"fool@gm.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "fool@gm.com"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_digest", "$2a$10$vIxtgTQ3pFrlFWlIkqOIRuVn68CHffwm3..9ByhsXGQd5Vy/uyO.S"], ["updated_at", "2015-11-23 07:59:04.046729"], ["id", 6]]
+  [1m[35m (10.2ms)[0m  commit transaction
+Redirected to https://twittertest-shafikul1.c9users.io/users/6
+Completed 302 Found in 214ms (ActiveRecord: 12.4ms)
+
+
+Started GET "/users/6" for 203.202.242.130 at 2015-11-23 07:59:04 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.7ms)
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 170ms (Views: 167.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 07:59:12 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    2: <div class="col-xs-4 col-xs-offset-4">
+    3:     <h1>Edit Your profile</h1>
+    4:     
+    5: <%=	form_for(@user)	do	|f|	%>
+    6: <%=	render	'shared/error_messages'	%>
+    7: <div class="field">
+    8: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:5:in `_app_views_users_edit_html_erb__3673821033686933915_70146016639720'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.5ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 07:59:13 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    2: <div class="col-xs-4 col-xs-offset-4">
+    3:     <h1>Edit Your profile</h1>
+    4:     
+    5: <%=	form_for(@user)	do	|f|	%>
+    6: <%=	render	'shared/error_messages'	%>
+    7: <div class="field">
+    8: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:5:in `_app_views_users_edit_html_erb__3673821033686933915_40726780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.1ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 08:02:13 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.0ms)
+  Rendered layouts/_nav.html.erb (17.4ms)
+Completed 500 Internal Server Error in 258ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb___2350217681387602893_70146159799240'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb___2661323179205552615_70146163157640'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__652635392775837885_41477880'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.9ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 08:02:35 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    2: <div class="col-xs-4 col-xs-offset-4">
+    3:     <h1>Edit Your profile</h1>
+    4:     
+    5: <%=	form_for(@user)	do	|f|	%>
+    6: <%=	render	'shared/error_messages'	%>
+    7: <div class="field">
+    8: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:5:in `_app_views_users_edit_html_erb__3673821033686933915_40726780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.3ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 08:04:09 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    2: <div class="col-xs-4 col-xs-offset-4">
+    3:     <h1>Edit Your profile</h1>
+    4:     
+    5: <%=	form_for(@user)	do	|f|	%>
+    6: <%=	render	'shared/error_messages'	%>
+    7: <div class="field">
+    8: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:5:in `_app_views_users_edit_html_erb__3673821033686933915_40726780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.9ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 09:29:04 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (2.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (130.1ms)
+  Rendered layouts/_nav.html.erb (342.7ms)
+Completed 500 Internal Server Error in 1177ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__3362212125340674200_22029740'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__4157976160030427946_69926148413920'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___3822034155887148360_49257860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (158.3ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 09:30:17 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (12.8ms)
+  Rendered layouts/_nav.html.erb (207.3ms)
+Completed 500 Internal Server Error in 641ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined local variable or method `edit_users_path' for #<#<Class:0x00000005d2d570>:0x007f31e66beff8>):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_users_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__3362212125340674200_69926127934220'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__4157976160030427946_69926148413920'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___3822034155887148360_49257860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (167.8ms)
+
+
+Started GET "/" for 10.240.0.44 at 2015-11-23 09:31:18 +0000
+Cannot render console from 10.240.0.44! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.8ms)
+  Rendered layouts/_nav.html.erb (214.4ms)
+Completed 500 Internal Server Error in 670ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__3362212125340674200_69926145833220'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__4157976160030427946_69926148413920'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___3822034155887148360_49257860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.1ms)
+
+
+Started GET "/" for 10.240.0.45 at 2015-11-23 09:31:31 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.8ms)
+  Rendered layouts/_nav.html.erb (208.2ms)
+Completed 500 Internal Server Error in 629ms (ActiveRecord: 1.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__3362212125340674200_69926145833220'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__4157976160030427946_69926148413920'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___3822034155887148360_49257860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (164.1ms)
+
+
+Started GET "/users/5/edit" for 10.240.0.45 at 2015-11-23 09:32:53 +0000
+Cannot render console from 10.240.0.45! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendered users/edit.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    2: <div class="col-xs-4 col-xs-offset-4">
+    3:     <h1>Edit Your profile</h1>
+    4:     
+    5: <%=	form_for(@user)	do	|f|	%>
+    6: <%=	render	'shared/error_messages'	%>
+    7: <div class="field">
+    8: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:5:in `_app_views_users_edit_html_erb___1887799483427270341_69926145796720'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (136.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (176.2ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:34:39 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (1.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (128.2ms)
+  Rendered layouts/_nav.html.erb (348.5ms)
+Completed 500 Internal Server Error in 1356ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__166950401802125877_12672600'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__1662195855965285582_70328969377860'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__2819978823491574609_39800120'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.9ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:34:48 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.1ms)
+  Rendered layouts/_nav.html.erb (194.8ms)
+Completed 500 Internal Server Error in 366ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__166950401802125877_12672600'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__1662195855965285582_70328969377860'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__2819978823491574609_39800120'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.3ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:38:11 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.2ms)
+  Rendered layouts/_nav.html.erb (77.6ms)
+Completed 500 Internal Server Error in 267ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__166950401802125877_12672600'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__1662195855965285582_70328969377860'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__2819978823491574609_39800120'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.8ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:38:15 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.5ms)
+  Rendered layouts/_nav.html.erb (75.2ms)
+Completed 500 Internal Server Error in 268ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__166950401802125877_12672600'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__1662195855965285582_70328969377860'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__2819978823491574609_39800120'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.6ms)
+
+
+Started GET "/users/id/edit" for 203.202.242.130 at 2015-11-23 09:38:36 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"id"}
+  Rendered users/edit.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    2: <div class="col-xs-4 col-xs-offset-4">
+    3:     <h1>Edit Your profile</h1>
+    4:     
+    5: <%=	form_for(@user)	do	|f|	%>
+    6: <%=	render	'shared/error_messages',  object: f.object	%>
+    7: <div class="field">
+    8: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:5:in `_app_views_users_edit_html_erb__797087792312740522_37203240'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.9ms)
+
+
+Started GET "/users/id/edit" for 203.202.242.130 at 2015-11-23 09:39:40 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"id"}
+  Rendered users/edit.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%=	form_for(@user)	do	|f|	%>
+    5: <%=	render	'shared/error_messages',  object: f.object	%>
+    6: <div class="field">
+    7: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb__797087792312740522_70328968405600'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.1ms)
+
+
+Started GET "/users/5/edit" for 203.202.242.130 at 2015-11-23 09:39:46 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendered users/edit.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%=	form_for(@user)	do	|f|	%>
+    5: <%=	render	'shared/error_messages',  object: f.object	%>
+    6: <div class="field">
+    7: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb__797087792312740522_70328968405600'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.0ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:39:53 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.0ms)
+  Rendered layouts/_nav.html.erb (75.8ms)
+Completed 500 Internal Server Error in 286ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__166950401802125877_12672600'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__1662195855965285582_70328969377860'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__2819978823491574609_39800120'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.8ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:45:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (4.6ms)
+  Rendered layouts/_nav.html.erb (80.7ms)
+Completed 500 Internal Server Error in 331ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb__166950401802125877_12672600'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb__1662195855965285582_70328969377860'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__2819978823491574609_39800120'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.7ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:46:40 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (32.5ms)
+  Rendered layouts/_nav.html.erb (134.1ms)
+Completed 500 Internal Server Error in 633ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb___1470933696835642821_21664700'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb___4203045658071865696_70086605757640'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___3549548404200149111_36780560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.7ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:48:45 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (1.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (5.7ms)
+  Rendered layouts/_nav.html.erb (105.4ms)
+Completed 500 Internal Server Error in 470ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb___2056016983340179298_21593220'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb___1989492786782123704_70148714962420'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__4441065536948403157_48786700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.4ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:48:48 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.1ms)
+  Rendered layouts/_nav.html.erb (76.2ms)
+Completed 500 Internal Server Error in 251ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb___2056016983340179298_21593220'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb___1989492786782123704_70148714962420'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__4441065536948403157_48786700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.2ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:49:07 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.6ms)
+  Rendered layouts/_nav.html.erb (76.8ms)
+Completed 500 Internal Server Error in 253ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path(@user) %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb___2056016983340179298_70148714039860'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb___1989492786782123704_70148714962420'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__4441065536948403157_48786700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.3ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:50:20 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.8ms)
+  Rendered layouts/_nav.html.erb (76.7ms)
+Completed 500 Internal Server Error in 257ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path(@user) %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb___2056016983340179298_49184080'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb___1989492786782123704_70148714962420'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__4441065536948403157_48786700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.1ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:53:00 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (3.8ms)
+  Rendered layouts/_nav.html.erb (78.2ms)
+Completed 500 Internal Server Error in 309ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users", :id=>nil} missing required keys: [:id]):
+    32:             <li role="separator" class="divider"></li>
+    33:             <li><a href="#">Help</a></li>
+    34:             <li role="separator" class="divider"></li>
+    35:             <li><%= link_to 'Edit Profile', edit_user_path(@user) %></li>
+    36:             <li role="separator" class="divider"></li>
+    37:             <li> <%= link_to 'Log Out', logout_path, method: :delete %> </li>
+    38:           </ul>
+  app/views/layouts/_nav_user.html.erb:35:in `_app_views_layouts__nav_user_html_erb___2056016983340179298_49184080'
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb___1989492786782123704_70148714962420'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__4441065536948403157_48786700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.5ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:53:26 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (75.3ms)
+Completed 200 OK in 265ms (Views: 263.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for 203.202.242.130 at 2015-11-23 09:54:19 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2czu3iBRXueFnmN+89AxkQC2cskssm1AVSOR6o55OlyBy6NJcPOaVB4VwZfqje8hj955qWZbsAf98H1a1zs2FA=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mUPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_digest", nil], ["updated_at", "2015-11-23 09:54:19.688831"], ["id", 6]]
+  [1m[35m (12.1ms)[0m  commit transaction
+Redirected to https://twittertest-shafikul1.c9users.io/
+Completed 302 Found in 23ms (ActiveRecord: 13.8ms)
+
+
+Started GET "/" for 203.202.242.130 at 2015-11-23 09:54:19 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#Index as HTML
+  Rendered pages/Index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.8ms)
+  Rendered layouts/_nav.html.erb (3.9ms)
+Completed 200 OK in 219ms (Views: 218.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 203.202.242.130 at 2015-11-23 09:54:24 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (103.9ms)
+  Rendered layouts/_nav_guest.html.erb (0.8ms)
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 321ms (Views: 320.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 203.202.242.130 at 2015-11-23 09:54:51 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UdNPWZwEiRypaezJxArF47GaaJXEAJGJJVlgW4UtsB4J1ALOzKZNrzLiTiDdVxtTPvJj9Y7pTM6Niozr3G+8Vg==", "session"=>{"email"=>"fool@gm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "fool@gm.com"]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://twittertest-shafikul1.c9users.io/users/6
+Completed 302 Found in 80ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/users/6" for 203.202.242.130 at 2015-11-23 09:54:51 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.8ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 205ms (Views: 203.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/6" for 203.202.242.130 at 2015-11-23 09:56:59 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.6ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 500 Internal Server Error in 233ms (ActiveRecord: 0.4ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/layouts/_nav_user.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...e', edit_user_path current_user );@output_buffer.safe_append...
+...                               ^):
+  app/views/layouts/_nav_user.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb___1989492786782123704_70148714962420'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__4441065536948403157_48786700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.1ms)
+
+
+Started GET "/users/6" for 203.202.242.130 at 2015-11-23 09:57:25 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (1.9ms)
+  Rendered layouts/_nav.html.erb (4.1ms)
+Completed 500 Internal Server Error in 250ms (ActiveRecord: 0.4ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/layouts/_nav_user.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...e', edit_user_path current_user );@output_buffer.safe_append...
+...                               ^):
+  app/views/layouts/_nav_user.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/layouts/_nav.html.erb:4:in `_app_views_layouts__nav_html_erb___1989492786782123704_70148714962420'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__4441065536948403157_48786700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.5ms)
+
+
+Started GET "/users/6" for 203.202.242.130 at 2015-11-23 09:57:36 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (2.5ms)
+  Rendered layouts/_nav.html.erb (4.5ms)
+Completed 200 OK in 267ms (Views: 264.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.self-e18188a5e211fee6e14c2d4a9901659df7bc4dc73ff5e7fe4416ad91fdda22df.css?body=1" for 203.202.242.130 at 2015-11-23 09:57:36 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-6a879e736afda96826634ab914561896fe5a3b17fc9e7363451b07b7a507fa57.css?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1b9e969f748876a2e407f49f343a18137df438eb40186bc454a57f0b17c27b1d.js?body=1" for 203.202.242.130 at 2015-11-23 09:57:37 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 09:57:43 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%=	form_for(@user)	do	|f|	%>
+    5: <%=	render	'shared/error_messages',  object: f.object	%>
+    6: <div class="field">
+    7: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_70148710510980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.7ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 09:57:44 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%=	form_for(@user)	do	|f|	%>
+    5: <%=	render	'shared/error_messages',  object: f.object	%>
+    6: <div class="field">
+    7: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_70148694645720'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.9ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 09:59:02 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%=	form_for(@user)	do	|f|	%>
+    5: <%=	render	'shared/error_messages',  object: f.object	%>
+    6: <div class="field">
+    7: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_70148694645720'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.8ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 09:59:11 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%=	form_for(@user)	do	|f|	%>
+    5: <%=	render	'shared/error_messages',  object: f.object	%>
+    6: <div class="field">
+    7: <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_70148694645720'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.1ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 10:00:19 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%= @user.email %>
+    5: </div>
+    6: </div>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_47747660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.6ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 10:00:21 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%= @user.email %>
+    5: </div>
+    6: </div>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_47747660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.3ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 10:01:02 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%= @user.email %>
+    5: </div>
+    6: </div>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_47747660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.1ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 10:01:17 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%= @user.email %>
+    5: </div>
+    6: </div>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_47747660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.8ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 10:02:47 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%=	form_for(@user)	do	|f|	%>
+    5:     <%=	render	'shared/error_messages',  object: f.object	%>
+    6:     <div class="field">
+    7:         <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_70148708648180'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.8ms)
+
+
+Started GET "/users/6/edit" for 203.202.242.130 at 2015-11-23 10:02:51 +0000
+Cannot render console from 203.202.242.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendered users/edit.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Edit Your profile</h1>
+    2: <div class="row">
+    3: <div class="col-xs-4 col-xs-offset-4">
+    4: <%=	form_for(@user)	do	|f|	%>
+    5:     <%=	render	'shared/error_messages',  object: f.object	%>
+    6:     <div class="field">
+    7:         <%=	f.label	:fullname	%>
+  app/views/users/edit.html.erb:4:in `_app_views_users_edit_html_erb___2393682885262109887_70148708648180'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.9ms)
