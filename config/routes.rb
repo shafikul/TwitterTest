@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+ 
+
   root 'pages#Index'
   
   
@@ -11,6 +13,13 @@ Rails.application.routes.draw do
   get '/explore' => 'pages#Explore'
   
   get '/signup' => 'users#new'
+  
+  get	'/login' 	=>	'sessions#new'
+
+	post	'/login' => 'sessions#create'
+
+	delete '/logout' => 'sessions#destroy'
+
   
   resources :users
 
